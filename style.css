@@ -1,0 +1,154 @@
+                        * {
+                            margin: 0px;
+                            padding: 0px;
+                            box-sizing: border-box;
+                            font-family: "Gilroy";
+                        }
+                        
+                        html,
+                        body {
+                            height: 100%;
+                            width: 100%;
+                        }
+                        
+                        #main {
+                            width: 100%;
+                            height: 100%;
+                            /* background-color: black; */
+                            display: flex;
+                        }
+                        
+                        #left {
+                            width: 45%;
+                            height: 100%;
+                            background-color: white;
+                            position: relative;
+                        }
+                        
+                        #right {
+                            width: 55%;
+                            height: 100%;
+                            background-color: black;
+                        }
+                        
+                        #rtop {
+                            height: 50%;
+                            width: 100%;
+                            background-color: aquamarine;
+                            display: flex;
+                        }
+                        
+                        #rbottom {
+                            height: 50%;
+                            width: 100%;
+                            background-color: blue;
+                            background-image: url("https://www.whoa.in/download/beautiful-natural-sunrise-with-orange-background-hd-wallpaper");
+                            background-size: cover;
+                            background-position: center;
+                        }
+                        
+                        #rtopl {
+                            width: 55%;
+                            height: 100%;
+                            background-color: rgb(0, 232, 253);
+                            background-image: url("https://plus.unsplash.com/premium_photo-1670512181061-e24282f7ee78?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+                            background-size: cover;
+                            background-position: center;
+                        }
+                        
+                        #rtopr {
+                            width: 45%;
+                            height: 100%;
+                            background-color: cadetblue;
+                            background-image: url("https://th.bing.com/th/id/OIP.6du4jSOYdWXg9ZLvKZKzrQHaE6?rs=1&pid=ImgDetMain");
+                            background-size: cover;
+                            background-position: center;
+                        }
+                        
+                        #lnav {
+                            display: flex;
+                            justify-content: space-between;
+                            width: 100%;
+                            padding: 20px 30px;
+                        }
+                        
+                        #lnav img {
+                            height: 20px;
+                            width: 20px;
+                        }
+                        
+                        #lnav a {
+                            padding: 5px;
+                        }
+                        
+                        #lnavr a {
+                            text-decoration: none;
+                            color: #000;
+                        }
+                        
+                        #lnavr img {
+                            padding-top: 7px;
+                        }
+                        
+                        #lnav {
+                            padding: 7px;
+                        }
+                        
+                        #lnavr img {
+                            height: 20px;
+                            width: 20px;
+                        }
+                        
+                        #lnavr {
+                            width: 75%;
+                            padding-left: 7px;
+                            display: flex;
+                            text-align: center;
+                            justify-content: space-evenly;
+                        }
+                        
+                        #lnavr img {
+                            color: royalblue;
+                        }
+                        
+                        #left #text {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                        
+                        #text h1 {
+                            font-size: 90px;
+                            font-weight: 900;
+                        }
+                        
+                        #text p {
+                            opacity: 0.6;
+                            font-size: 12px;
+                            line-height: 20px;
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                        }
+                        
+                        #text a {
+                            text-decoration: none;
+                            color: black;
+                            font-size: 13px;
+                            font-weight: 600;
+                            opacity: 0.6;
+                            border-bottom: 1px solid black;
+                            padding-bottom: 5px;
+                        }
+                        
+                        @media(max-width :500px) {
+                            #main {
+                                flex-direction: column;
+                            }
+                            #main #left {
+                                width: 100%;
+                            }
+                            #main #right {
+                                width: 100%;
+                            }
+                        }
